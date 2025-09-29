@@ -20,7 +20,7 @@ let debugMesh = null;
 export function createPlayer() {
   const loader = new GLTFLoader();
 
-  loader.load('/models/demon.glb', (gltf) => {
+  loader.load('./models/demon.glb', (gltf) => {
     playerMesh = gltf.scene;
     playerMesh.scale.set(0.5, 0.5, 0.5);
     playerMesh.name = 'player';

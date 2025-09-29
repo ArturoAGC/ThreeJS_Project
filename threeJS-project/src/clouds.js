@@ -1,7 +1,7 @@
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
 import { scene } from './scene.js';
 
-const cloudModels = ['/models/level/clouds.glb', '/models/level/clouds2.glb', '/models/level/clouds3.glb'];
+const cloudModels = ['./models/level/clouds.glb', './models/level/clouds2.glb', './models/level/clouds3.glb'];
 const clouds = [];
 const loader = new GLTFLoader();
 

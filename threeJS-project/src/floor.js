@@ -6,7 +6,7 @@ import { world } from './physics.js';
 export function loadFloor() {
   const loader = new GLTFLoader();
   
-  loader.load('/models/level/floor.glb', (gltf) => {
+  loader.load('./models/level/floor.glb', (gltf) => {
     const floor = gltf.scene;
     floor.name = 'floor';
 

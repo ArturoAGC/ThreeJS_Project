@@ -107,7 +107,7 @@ export function createWeapons() {
   const loader = new GLTFLoader();
 
   // Cargamos un martillo simple sin físicas
-  loader.load('/models/weapons/hammer.glb', (gltf) => {
+  loader.load('./models/weapons/hammer.glb', (gltf) => {
     const hammer = gltf.scene;
     hammer.position.set(0, 0, 0);
     hammer.scale.set(1, 1, 1);
