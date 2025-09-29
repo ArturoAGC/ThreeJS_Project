@@ -1,0 +1,19 @@
+# Node modules
+node_modules/
+
+# Build output (cuando corres npm run build)
+dist/
+
+# Archivos de logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de entorno (si en el futuro usas claves)
+.env
+.env.local
